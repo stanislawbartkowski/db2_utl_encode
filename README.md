@@ -11,6 +11,7 @@ https://docs.oracle.com/cd/B28359_01/appdev.111/b28419/u_encode.htm#i996731
 * UTL_ENCODE_java Eclipse Java project to create UTL_ENCODE_java.jar
 
 # Installation
+* git clone https://github.com/stanislawbartkowski/db2_utl_encode.git
 * cd BASE64
 * Copy UTL_ENCODE_java.jar to DB2 server {instance_home}/sqllib/function directory.
 * db2 "CALL SQLJ.REFRESH_CLASSES()"
