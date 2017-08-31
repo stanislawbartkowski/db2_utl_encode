@@ -20,7 +20,7 @@ https://docs.oracle.com/cd/B28359_01/appdev.111/b28419/u_encode.htm#i996731
 In order to properly resolve access to UTL_ENCODE package, user db2inst1 (or the user who owns the package) should stand before SYSIBMADM path. As a default, db2inst1 is added to the end of CURRENT PATH and DB2 will signal that SYSIBMADM.UTL_ENCODE package does not exist.
 
 # Test
-* db2 "set server output on"
+* db2 "set serveroutput on"
 * optionally: modify the first line in test.sql in the light of remark above
 * db2 -td@ -v test.sql
 Expected result: http://www.dba-oracle.com/t_utl_encode_base64_decode_encode.htm
